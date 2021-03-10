@@ -1,0 +1,8 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media only screen and (max-width: 320px){
+.sppb-item.sppb-item-has-bg >img, .sppb-item.sppb-item-has-bg .sppb-carousel-pro-text {
+    height: 284px;
+}
+}

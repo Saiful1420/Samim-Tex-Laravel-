@@ -1,0 +1,328 @@
+@charset "utf-8";
+/* CSS Document */
+
+#main{
+	width:100%;
+	height:auto;
+	float:left;
+}
+
+#HeaderCom{
+	width:100%;
+	min-height:35px;
+	padding:15px 0;
+	border-bottom:1px solid #EEE;
+}
+
+#MainSlider{
+	float:left;
+	width:100%;
+	border-bottom:1px solid #E6E6E6;
+	border-top:1px solid #E6E6E6;
+}
+
+#Home-Slider{
+		border-bottom:1px solid #F3F3F3;
+		border-top:1px solid #F3F3F3;
+		float:left;
+		margin-top:90px;
+		width:100%;
+}
+
+#SubPageImg{
+	float:left;
+	border-bottom:1px solid #E6E6E6;
+	border-top:1px solid #E6E6E6;
+	width:100%;
+	line-height:0 !important;
+}
+
+#CategorySlide{
+	width:100%;
+	float:left;
+	background-color:#F0F0F0;
+	padding:35px 0px;
+}
+
+.category h2{
+	text-align:center;
+	width:100%;
+	float:left;
+	font-size:36px;
+	color:#333;
+}
+
+.category span{
+	text-align:center;
+	float:left;
+	width:100%;
+	color:#999;
+	font-size:12px;
+	letter-spacing:5px;
+	margin-bottom:25px;
+}
+
+
+
+#CopyRight{
+	width:100%;
+	float:left;
+	border-top:1px solid #EEE;
+	background-color:#333;
+	padding:10px 0;
+}
+
+#CopyRight p{
+	text-align:center !important;
+	font-size:12px;}
+
+.nav-link{
+	font-size:12px;
+	color:#666 !important;
+	font-weight:bold;}
+
+.social-link{
+	margin-left:10px;
+	color:#666;
+	font-size:20px;
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link{
+	padding-left:30px;}
+	
+.carousel-item {
+ /* height: 65vh;*/
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#Navigation{
+	float:left;
+	width:100%;
+	border-top:4px solid #C22026 !important;
+	position:fixed;
+	z-index:999;
+	border-bottom:2px solid #EEE;
+	
+}
+
+#HomeBody{
+	float:left;
+	width:100%;
+	padding:35px 0;
+}
+
+.product_title{
+	text-align:center;
+	text-transform:uppercase;
+	padding:10px 0;
+
+}
+
+.product_title a{
+	text-align:center;
+		font-size:12px !important;
+	font-weight:bold !important;
+	font-family:Arial, Verdana, Tahoma;
+	letter-spacing:1px;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+	width:35px;
+	height:35px;
+	color:#999;
+}
+
+.Contact-Details{
+	text-align:center;}
+	
+.Contact-Details h4{
+	text-transform:uppercase;
+	letter-spacing:1px;
+}
+
+.Contact-Details p{
+	color:#999;
+	line-height:2.3em !important;
+	font-size:18px;
+}
+
+.fa-map-marker-alt, .fa-phone-square, .fa-fax, .fa-at{
+	color:#C22026;
+	font-size:24px;
+	margin-right:10px;
+}
+
+.ContactForm{
+	border:1px solid #EFEFEF;	
+	background-color:#F4F4F4;
+	padding:30px;
+	margin:25px 0 35px 0;
+}
+
+.ContactForm h3{
+	text-align:center;
+	color:#999;
+	margin-bottom:20px;
+}
+
+.form-control{
+	border-radius:0;
+	padding:15px;
+	box-shadow:none !important;
+	border-color:#EAEAEA !important;
+	margin-bottom:25px;
+}
+
+.card-img-top{
+	border-radius:0px;
+}
+
+.card{
+	border-radius:0px !important;}
+
+.team{
+	padding:0;
+	margin-top:35px;
+}
+
+/*---- TOP Scorel-------*/
+
+
+
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 0px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+	
+	padding: 12px 0px 0px 17px;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 30px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: #C22026;
+	color: #fff;
+}
+#return-to-top:hover i{
+    color: #fff;
+    top: 5px;
+}
+
+.CareerCom{
+	margin-bottom:10px;
+	float:left;
+	padding:25px!important;
+	border-bottom:2px solid #EFEFEF;
+}
+
+.CareerCom h5{
+	margin-bottom:10px;}
+
+
+.CareerForm input{
+	line-height:1em !important;
+	line-height:45px;
+	 }
+
+.CareerForm label{
+	text-transform:uppercase;
+	font-size:12px;
+	color:#666;
+	margin-bottom:5px;
+	font-weight:bold;
+}
+
+.CareerForm .form-group{
+	margin-bottom:5px !important;}
+
+.CareerForm .form-control{
+	margin-bottom:8px !important;}
+
+
+.CareerForm select.form-control:not([size]):not([multiple]){
+	height:48px;
+	padding:5px !important;
+	line-height:40px;
+}
+
+#v-pills-tab{
+	background-color: #404040;
+	/*background-color:#C90115;*/
+	margin:0;
+	padding:0;
+	/*border:1px solid #B00114;*/
+	border: 1px solid #f0f0f0;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+	/*background-color:#B00114 !important;*/
+	background-color: #696566 !important;
+}
+	
+.nav-pills .nav-link{
+	border-radius:0;
+	padding:15px;
+	color:#FFF !important;
+	text-transform:uppercase;
+	letter-spacing:1px;
+}
+
+.Values .card{
+	min-height:410px;
+	background-color:#F2F2F2;
+	border:1px solid #F0F0F0;
+	margin-bottom:30px !important;}
+
+.Values .card h5{
+	margin-bottom:5px;
+	font-weight:600;
+	font-size:16px;
+}
+
+.Values h3{
+	font-size:35px !important;
+	text-align:center;
+}
+
+.red1{
+	color:#C22026;
+}
+
+
+.CategoryDiv{
+	float:left;
+	width:100%;
+	background-color:#FFF;
+	border:1px solid #F0F0F0;
+	padding:5px;}

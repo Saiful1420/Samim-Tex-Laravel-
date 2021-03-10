@@ -1,0 +1,592 @@
+.bannar {
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.bannar p {
+    color: #666666;
+    font-size: 13px;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .bannar p {
+        font-size: 10px;
+    }
+}
+
+.product {
+    background-color: #F0F0F0;
+    padding-top: 15px;
+}
+
+.product h2 {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-size: 36px;
+}
+
+.product h3 {
+    font-size: 14px;
+    color: #999999;
+}
+
+.product h3:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.product a {
+    color: black;
+}
+
+.trion-tex {
+    margin-top: 70px;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+.trion-tex h4 {
+    color: #0080FE;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.trion-tex h1 {
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.trion-tex p {
+    font-family: Roboto, sans-serif;
+    color: rgba(68, 71, 86, 0.7);
+    font-size: 15px;
+    text-align: justify;
+    padding-bottom: 30px;
+}
+
+.trion-tex h5 {
+    font-family: Roboto, sans-serif;
+    color: #7C7E88;
+    font-size: 17px;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.know-more {
+    background-image: url('images/tt-garn.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin-bottom: 60px;
+}
+
+.know-more h5 {
+    font-size: 16px;
+    color: #0080FE;
+    font-weight: bold;
+    margin-top: -15px;
+    font-family: Roboto, sans-serif;
+}
+
+.know-more h1 {
+    font-size: 50px;
+    color: #444756;
+    font-weight: bold;
+    margin-top: -5px;
+    margin-bottom: 60px;
+    font-family: Roboto, sans-serif;
+}
+
+.know-more i {
+    font-size: 19px;
+    color: green;
+    margin-left: 65px;
+}
+
+.know-more h6 {
+    font-size: 16px;
+    color: #7C7E88;
+    font-weight: bold;
+    margin-top: 2px;
+}
+
+.know-more p {
+    font-size: 15px;
+    color: rgba(68, 71, 86, .7);
+    margin-top: 2px;
+}
+
+.backgrond {
+    background-color: white;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding-top: 20px;
+}
+
+
+/* .our {
+    background-image: url('Pimages/tt-corporate-values.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin-top: 50px;
+} */
+
+.our h1 {
+    margin-top: 50px;
+}
+
+.backgrond2 {
+    background-color: white;
+    margin-top: 150px;
+    margin-bottom: 70px;
+}
+
+.backgrond2 h4 {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #0080FE;
+    font-weight: bold;
+    font-family: Roboto, sans-serif;
+}
+
+.backgrond2 h1 {
+    font-size: 47px;
+    color: #444756;
+    font-weight: bold;
+    margin-top: -5px;
+    margin-bottom: 20px;
+    font-family: Roboto, sans-serif;
+}
+
+.div h1 {
+    color: #444756;
+    font-weight: bold;
+}
+
+.div1 {
+    margin-top: -70px;
+    background-color: white;
+    border-top: 3px solid blue;
+    border-right: 4px solid #D68910;
+    color: #444756;
+    font-size: 15px;
+    text-align: justify;
+    width: 360px;
+    height: 330px;
+    margin-bottom: 90px;
+}
+
+.div2 {
+    margin-top: -70px;
+    background-color: white;
+    border-top: 4px solid red;
+    color: #444756;
+    font-size: 15px;
+    text-align: justify;
+    width: 360px;
+    height: 260px;
+    margin-bottom: 90px;
+}
+
+.div3 {
+    margin-top: -70px;
+    background-color: white;
+    border-top: 3px solid green;
+    border-left: 4px solid #D68910;
+    color: #444756;
+    font-size: 15px;
+    text-align: justify;
+    width: 360px;
+    height: 330px;
+    margin-bottom: 90px;
+}
+
+.innovative {
+    margin-top: -50px;
+}
+
+.padding {
+    margin-top: -320px;
+    padding: 50px;
+    text-align: justify;
+}
+
+.innovative h4 {
+    margin-top: 150px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #0080FE;
+    font-weight: bold;
+    font-family: Roboto, sans-serif;
+}
+
+.innovative h1 {
+    font-size: 47px;
+    color: #444756;
+    font-weight: bold;
+    margin-top: -5px;
+    font-family: Roboto, sans-serif;
+}
+
+.innovative h3 {
+    color: #F1C40F;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.innovative h5 {
+    font-size: 17px;
+    color: rgba(68, 71, 86, 0.7);
+    font-weight: bold;
+    margin-top: -5px;
+    margin-bottom: 45px;
+    font-family: Roboto, sans-serif;
+}
+
+.innovative p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Roboto, sans-serif;
+}
+
+.certified {
+    margin-top: 100px;
+}
+
+.certified h4 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #0080FE;
+    font-weight: bold;
+    font-family: Roboto, sans-serif;
+}
+
+.certified h1 {
+    font-size: 47px;
+    font-weight: bold;
+    margin-top: -5px;
+    margin-bottom: 60px;
+    font-family: Roboto, sans-serif;
+    color: #444756;
+}
+
+.certified p {
+    margin-top: -20px;
+    color: rgba(68, 71, 86, 0.7);
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.icon {
+    margin-top: 240px;
+}
+
+.icon i {
+    font-size: 47px;
+    font-weight: bold;
+    color: #2980B9;
+}
+
+.icon h1 {
+    font-size: 47px;
+    font-weight: bold;
+    margin-bottom: 60px;
+    font-family: Roboto, sans-serif;
+    color: #444756;
+}
+
+.icon p {
+    text-align: center;
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    color: rgba(68, 71, 86, 0.7);
+}
+
+
+/*about*/
+
+.about p {
+    color: #999;
+    text-align: justify!important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 15px;
+}
+
+.vission {
+    background-color: #F4F4F4;
+    margin-top: 20px;
+}
+
+.vission1 p {
+    margin-top: 30px;
+    color: #999;
+    text-align: justify!important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 17px;
+}
+
+.value {
+    margin-top: 40px;
+}
+
+.value p {
+    text-transform: uppercase;
+    color: #666;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    float: left;
+    margin-bottom: 25px;
+    font-size: 12px;
+}
+
+@media (max-width: 600px) {
+    .value p {
+        font-size: 8px;
+    }
+}
+
+.sa {
+    background-color: #F4F4F4;
+    padding: 15px;
+    padding-top: 10px;
+    padding-bottom: 150px;
+    font-size: 19px;
+}
+
+.sa h5 {
+    color: #212529;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.sa p {
+    text-transform: uppercase;
+    color: #666;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    float: left;
+    margin-bottom: 25px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.background {
+    background-color: #F4F4F4;
+}
+
+.value .col-md-4 p {
+    color: #999;
+    text-align: justify;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.career {
+    background-color: #F4F4F4;
+    margin-bottom: -50px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.career h4 {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.career h6 {
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 13px;
+    color: #999999;
+}
+
+.career li {
+    margin-top: 10px;
+    font-size: 14.5px;
+    color: #212529;
+}
+
+.career h5 {
+    color: #999999;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.btn {
+    float: right;
+    width: 12%;
+    background-color: #DC3545;
+    margin-top: -20px;
+}
+
+.btn1 {
+    float: right;
+    width: 13%;
+    background-color: #27AE60;
+    margin-top: -20px;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .btn1 {
+        width: 30%;
+    }
+}
+
+.inquire-btn {
+    margin-right: 60px;
+    width: 50%;
+    background-color: #27AE60;
+    margin-top: 1px;
+    color: white;
+}
+
+
+/*<!-- OUR CUSTOMERS -->*/
+
+#ourCustomer {
+    position: relative;
+}
+
+#ourCustomer .MS-content {
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0 2%;
+}
+
+#ourCustomer .MS-content .item {
+    display: inline-block;
+    width: 25%;
+    position: relative;
+    vertical-align: top;
+    overflow: hidden;
+    white-space: normal;
+    padding: 0 15px;
+}
+
+@media (max-width: 991px) {
+    #ourCustomer .MS-content .item {
+        width: 50%;
+    }
+}
+
+@media (max-width: 767px) {
+    #ourCustomer .MS-content .item {
+        width: 100%;
+    }
+}
+
+#ourCustomer .MS-content .item .imgTitle {
+    position: relative;
+}
+
+#ourCustomer .MS-content .item .imgTitle img {
+    height: auto;
+    width: 100%;
+}
+
+#ourCustomer .MS-content .item p {
+    color: #CA040A !important;
+}
+
+#ourCustomer .MS-controls button {
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    outline: 0;
+    font-size: 40px;
+    top: 40%;
+    color: rgba(0, 0, 0, 0.4);
+    transition: 0.15s linear;
+}
+
+#ourCustomer .MS-controls button:hover {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 992px) {
+    #ourCustomer .MS-controls button {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    #ourCustomer .MS-controls button {
+        font-size: 20px;
+    }
+}
+
+#ourCustomer .MS-controls .MS-left {
+    left: 0px;
+}
+
+@media (max-width: 767px) {
+    #ourCustomer .MS-controls .MS-left {
+        left: -10px;
+    }
+}
+
+#ourCustomer .MS-controls .MS-right {
+    right: 0px;
+}
+
+@media (max-width: 767px) {
+    #ourCustomer .MS-controls .MS-right {
+        right: -10px;
+    }
+}
+
+.contact {
+    margin-top: 70px;
+}
+
+.contact h2 {
+    margin-top: -60px;
+}
+
+.i {
+    color: white;
+    font-size: 10px;
+}
+
+.footer {
+    background-color: #2f313e;
+    margin-top: 80px;
+    color: white;
+    padding: 70px;
+}
+
+.footer h5 {
+    color: #7C7E88;
+}
+
+.footer a {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer p {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer a:hover {
+    color: #2980B9;
+}
+
+.video {
+    margin-top: 70px;
+}
+
+@media (max-width: 600px) {
+    .video {
+        width: 230px;
+        height: 406px;
+    }
+}

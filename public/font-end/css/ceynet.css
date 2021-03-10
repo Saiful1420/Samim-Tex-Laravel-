@@ -1,0 +1,299 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,body, div, span, h1, h2, h3, h4, h5, h6, p, a, address, em, strong, dl, dt, dd, ol, ul, li, fieldset, form, label, table, tr, th, td {
+    border: 0 none;
+    font-style:normal;
+    font-weight:normal;
+    margin:0;
+    outline:0 none;
+    padding:0;
+	
+}
+
+
+p{
+	color:#CCC;
+	line-height:2em !important;
+}
+
+img{
+	border:0;
+	
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  user-drag: none;
+  -webkit-touch-callout: none;
+}
+
+object, embed {
+    outline: 0 none;
+}
+
+
+a {
+	text-decoration: none;
+	color: #999999;
+	-moz-transition: all 0.7s ease-in-out;
+    -webkit-transition: all 0.7s ease-in-out;
+	-o-transition: all 0.7s ease-in-out;   
+	-ms-transition: all 0.7s ease-in-out;   
+	transition: all 0.7s ease-in-out; 
+}
+
+a:hover {
+	text-decoration: none;
+	color: #000;
+}
+
+a:focus {
+outline: none !important;
+text-decoration:none !important;
+}
+
+.TxCenter{
+	text-align:center !important;
+}
+
+.PaddingNone{
+	padding:0 !important;
+}
+
+.Padd_Left{
+	padding-left:0 !important;
+}
+
+.Padd_Right{
+	padding-right:0 !important;
+}
+
+.PaddingBtm{
+	padding-bottom:15px !important;
+}
+
+button{
+	box-shadow:none !important;
+	cursor:pointer !important;
+}
+
+.ceynet{
+	color:#999999;
+}
+
+.ceynet:hover{
+	color:#C22026;
+}
+
+.Radius-0{
+	border-radius:0 !important;
+}
+
+
+/*LIMIT TEXT TO ONE ROW*/
+.Limit-tx-row{
+text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
+font-family: 'Oswald', sans-serif;
+width: 100%;
+}
+
+/* Custom text-selection colors (remove any text shadows: twitter.com/miketaylr/status/12228805301) */
+::-moz-selection{background:#000; color: #fff; text-shadow: none;}
+::selection {background:#000; color: #fff; text-shadow: none;} 
+
+/*<--------------------------------------------------------------BORDERS---------------------------------------------------------->*/
+
+.border1{
+	border: 1px solid #EEEEEE;
+	padding:5px;
+}
+
+.border2{
+	border:px solid #EFEFEF;
+}
+
+.border3{
+	border:1px solid #EFEFEF;	
+	background-color:#F4F4F4;
+}
+
+
+.border4{
+	border:1px solid #EFEFEF;
+}
+
+/*<--------------------------------------------------------------JUSTIFY_TX---------------------------------------------------------->*/
+
+.tx_jesty1 {
+	font-family: Tahoma, Verdana, Arial;
+	font-size:11px;
+	font-weight: normal;
+	color: #999;
+	text-align:justify;
+	text-decoration: none;
+}
+
+/*<--------------------------------------------------------------TX_STYLE---------------------------------------------------------->*/
+
+.tx1 {
+	color:#999;
+}
+
+.tx2{
+	text-transform:uppercase;
+	color:#666;
+	font-weight:bold;
+	font-size:12px;
+	letter-spacing:10px;
+}
+
+.tx3{
+	text-transform:uppercase;
+	color:#666;
+	font-weight:bold;
+	text-align:center;
+	width:100%;
+	float:left;
+	margin-bottom:25px;
+	font-size:12px;
+	letter-spacing:8px;
+}
+
+.tx4{
+	text-shadow:1px 1px 1px #333333;
+	font-size:46px;
+}
+
+.tx5{
+	color:#FFF;
+	text-shadow:1px 1px 1px #000;
+	text-align:justify;
+	background: rgba(0, 0, 0, 0.6); /* Green background with 30% opacity */
+	padding:30px !important;
+	border:2px solid #666;
+}
+
+.tx6{
+	font-size:12px;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#999;
+	text-align:justify;
+}
+
+.tx7{
+	font-size:12px;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#333;
+	font-weight:bold;
+	text-transform:uppercase;
+	text-align:justify;
+}
+
+.tx8{
+	text-align: center;
+	font-size: 12px !important;
+	font-weight: bold !important;
+	font-family: Arial, Verdana, Tahoma;
+	letter-spacing: 1px;
+	color:#666;
+	
+}
+
+
+
+.red{
+	color:#C22026;
+	font-size:50px;
+}
+
+.Black{
+	color:#000;
+	font-size:40px;
+	text-align:center;
+}
+
+
+.tell,.tell:hover,.tell:focus{
+	font-family:calibri, verdana, tahoma;
+	font-size:14px;
+	color:#A91F8D;
+	font-weight:normal;
+}
+
+.tell_w,.tell_w:hover,.tell_w:focus{
+	font-family:calibri, verdana, tahoma;
+	font-size:14px;
+	color:#FFF;
+	font-weight:normal;
+}
+
+
+
+/*<-------------------------------------------------------------- LINKS---------------------------------------------------------->*/
+
+.link1 {
+	color:#A91F8D;
+	font-family:Arial, Tahoma, Verdana;
+	font-weight:bold;
+	cursor:pointer;
+	letter-spacing:0.05em;
+	font-size:11px;
+	text-transform:uppercase;
+	text-shadow:1px 1px 1px #FFF;
+}
+
+.link1:hover{
+	color:#620062;
+	font-family:Arial, Tahoma, Verdana;
+	font-weight:bold;
+	letter-spacing:0.05em;
+	cursor:pointer;
+	text-transform:uppercase;
+	font-size:11px;
+	text-decoration:none;
+	text-shadow:1px 1px 1px #FFF;
+}
+
+.link1:focus {
+	color:#A91F8D;
+	outline: none !important;
+	text-decoration:none !important;
+}
+
+
+
+
+
+/*Main Slider Fade CSS*/
+
+.carousel-fade .carousel-item {
+ opacity: 0;
+ transition-duration: .6s;
+ transition-property: opacity;
+}
+
+.carousel-fade  .carousel-item.active,
+.carousel-fade  .carousel-item-next.carousel-item-left,
+.carousel-fade  .carousel-item-prev.carousel-item-right {
+  opacity: 1;
+}
+
+.carousel-fade .active.carousel-item-left,
+.carousel-fade  .active.carousel-item-right {
+ opacity: 0;
+}
+
+.carousel-fade  .carousel-item-next,
+.carousel-fade .carousel-item-prev,
+.carousel-fade .carousel-item.active,
+.carousel-fade .active.carousel-item-left,
+.carousel-fade  .active.carousel-item-prev {
+ transform: translateX(0);
+ transform: translate3d(0, 0, 0);
+}
+/*Main Slider CSS*/
+

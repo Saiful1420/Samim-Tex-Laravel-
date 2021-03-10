@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*font-family: 'Titillium Web', sans-serif;*/
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web);
+
+@import url("bootstrap.min.css");
+@import url("font-awesome.css");
+@import url("pageDiv.css");
+@import url("ceynet.css");
+@import url("responsive.css");
+
+
+@import url("calegories_style.css");
+
+
+
+
+
+
+ 

@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+.cnt-errorBdr{
+	border:1px solid #C00 !important;
+	
+	
+}
+
+.redcolor{
+	color:#900;
+}
+
+/* Tooltip styling */
+.cntValidateError {
+    display:none;
+    position: relative;
+    padding: 4px;
+	position: absolute;
+    background: #00a65a;
+    color: #FFF;
+    padding: 4px 8px;
+    font-size: 14px;
+    line-height: 1.4;
+    min-width: 200px !important;
+    text-align: center;
+    border-radius: 4px;
+	
+	 /*top: 50%;
+    -ms-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+	*/
+	 left: 97%;
+    margin-left: 6px;
+	margin-top:-42px;
+	z-index: 10000;
+}
+
+.cntValidateCheckBoxError{
+	position: relative;
+    padding: 4px;
+	position: absolute;
+    background: #00a65a;
+    color: #FFF;
+    padding: 4px 8px;
+    font-size: 14px;
+    line-height: 1.4;
+    min-width: 200px !important;
+    text-align: center;
+    border-radius: 4px;
+	
+	 /*top: 50%;
+    -ms-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+	*/
+	 left: 97%;
+    margin-left: 6px;
+	margin-top:-42px;
+	z-index: 10000;
+}
+
+
+
+/* Tooltip arrow styling/placement */
+.cntValidateErrorArrow{
+	display:none;
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+	
+	/*top: 50%;*/
+    margin-top:-35px;
+	
+	left: 97%;
+    border-width: 6px 6px 6px 0;
+    border-right-color: #00a65a;
+	z-index: 10000;
+}
+
+

@@ -1,0 +1,150 @@
+
+.navbar-dark .navbar-toggler{
+	background-color:#A80000;
+	border-color:#A80000 !important;
+	border-radius:0;
+}
+
+@media (max-width: 420px) { 
+
+	.navbar-brand{
+		width:72%;
+	}
+	
+	.catButton{
+		margin:0 !important;
+		padding:0 !important;
+	}
+	
+	.CategoryDiv{
+		height:auto !important;
+	}
+
+}
+
+
+@media (max-width: 800px) { 
+	
+	.homeSliderItem {
+    	min-height: 200px !important;
+	}
+	
+	.mtR-15{
+		margin-top:15px;
+	}
+	
+	#mixedSlider .MS-controls .MS-left{
+		left:0 !important;
+	}
+	
+	#mixedSlider .MS-controls .MS-right{
+		right:0 !important;
+	}
+	
+	#SubPageImg{
+		margin-top:17%;
+	}
+	
+	.belive_Padding{
+		padding:10px !important;
+	}
+	
+	.belive_Padding .card-title{
+		margin: 0 0 5px 0 !important;
+    	font-size: 30px;
+	}
+	
+	.belive_Padding .tx5{
+		padding:10px !important;
+	}
+	
+	.about_value{
+	    letter-spacing: 4px;
+	}
+	
+	.carousel-item{
+		min-height:200px;
+	}
+	
+	#ourCustomer .MS-controls .MS-left{
+		left:0 !important;
+	}
+	
+	#ourCustomer .MS-controls .MS-right{
+		right:0 !important;
+	}
+	
+	#SubPageImg iframe{
+		height:200px !important;
+	}
+	
+	.Contact-Details h4{
+		font-size:15px;
+	}
+	
+	.Contact-Details p{
+		margin-top:10px;
+		font-size:14px;
+	}
+	
+	.mobile_font20{
+		font-size:20px;
+	}
+	
+	.catButton{
+		margin:0 !important;
+		padding:0 !important;
+	}
+	
+	.CategoryDiv{
+		height:auto !important;
+	}
+
+}
+
+@media (min-width: 801px) and (max-width: 990px){ 
+
+	.catButton{
+		margin:0 !important;
+		padding:0 15px !important;
+	}
+	
+	.CategoryDiv{
+		height:auto !important;
+	}
+
+}
+ 
+@media (min-width: 990px) and (max-width: 1200px) { 
+
+	.navbar-expand-lg .navbar-nav .nav-link{
+		padding-left:8px;
+	}
+	
+	.homeSliderItem {
+    	min-height: 350px !important;
+	}
+	
+	.catButton{
+		margin:0 !important;
+		padding:0 15px !important;
+	}
+	
+	.CategoryDiv{
+		height:auto !important;
+	}
+}
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { ... }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { ... }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
